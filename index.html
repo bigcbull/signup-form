@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+    <div class="left-sidebar">
+        
+            <div class="left-image"><img src="./img/left_img.jpg" alt=""></div> 
+            <div class="left-logo"><img class="logo" src="./img/logo.png" alt=""></div>
+        
+    </div>
+    <div class="right-sidebar">
+        <div class="right-content">
+            <h2 class="right-title">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</h2>
+            <h2 class="right-title bold-title">Sign up now to get started.</em></h2>
+            <div id="form-background">
+                <form action="#" class="signup" id="form1" method="POST">
+                    <div class="form-element">
+                        <label for="first">First name</label>
+                        <input type="text" name="firstName" id="first" maxlength="15" required>
+                    </div>
+                    <div class="form-element">
+                        <label for="last">Last name</label>
+                        <input type="text" name="lastName" id="last" maxlength="15" required>
+                    </div>
+                    <div class="form-element">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="form-element">
+                        <label for="phone">Phone number</label>
+                        <input type="number" name="phone" id="phone" required>
+                    </div>
+                    <div class="form-element">
+                        <label for="pass">Password</label>
+                        <input type="password" name="password" id="pass" required>
+                    </div>
+                    <div class="form-element">
+                        <label for="confpass">Confirm password</label>
+                        <input type="password" name="password" id="confpass" required>
+                    </div>
+                </form>
+                    <button type="reset" form="form1" class="form-btn">Create Account</button>
+                    <br>
+                    <span class="signup-footer">Already have an account? <a href="#">Log in</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
